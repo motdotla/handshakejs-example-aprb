@@ -1,16 +1,14 @@
-# handshakejs-example-ruby 
+# handshakejs-example-aprb 
 
-Example of using [handshakejs-script](https://github.com/handshakejs/handshakejs-script) with a ruby Sinatra app.
-
-You can view it in action [here](http://handshake-example-ruby.herokuapp.com/).
+Example of using [handshakejs-script](https://github.com/handshakejs/handshakejs-script) with a ruby Sinatra app for purpose of [Abril Ruby Conference](http://abrilproruby.com).
 
 ## Usage
 
 Create an account at <http://handshakejs-signup.herokuapp.com/>.
 
 ```bash
-git clone https://github.com/handshakejs/handshakejs-example-ruby.git
-cd handshakejs-example-ruby
+git clone https://github.com/handshakejs/handshakejs-example-aprb.git
+cd handshakejs-example-aprb
 cp .example.env .env
 ```
 
@@ -28,7 +26,7 @@ Visit [http://localhost:5000](http://localhost:5000) in your browser.
 Create an account at <http://handshakejs-signup.herokuapp.com/>.
 
 ```bash
-git clone https://github.com/handshakejs/handshakejs-example-ruby.git
+git clone https://github.com/handshakejs/handshakejs-example-aprb.git
 cd handshakejs-example-ruby
 heroku create
 heroku config:set SALT=your_salt
