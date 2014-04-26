@@ -1,0 +1,42 @@
+<h1>Dashboard</h1>
+
+<p>Welcome to your dashboard page. Only you have access to this secure page.</p>
+
+<p>The current session is <%= session[:user] || "empty" %>.</p>
+
+<p>You can <a href="/logout">logout</a> if you wish.</p>
+
+<script type="text/javascript">
+  setInterval("Timer()", 500);
+  var x=1;
+  var set;
+  var colors = ['#3d9b4c', '#3d61a7', '#b33ea0', '#afcc6e', '#c1edd9'];
+  function Timer() {
+    set=1;
+    if(x==0 && set==1) {
+      document.bgColor=colors[x];
+      x=1;
+      set=0;
+    }
+    if(x==1 && set==1) {
+      document.bgColor=colors[x];
+      x=2;
+      set=0;
+    }
+    if(x==2 && set==1) {
+      document.bgColor=colors[x];
+      x=3;
+      set=0;
+    }
+    if(x==3 && set==1) {
+      document.bgColor=colors[x];
+      x=4;
+      set=0;
+    }
+    if(x==4 && set==1) {
+      document.bgColor=colors[x];
+      x=0;
+      set=0;
+    }
+  }
+</script>
