@@ -7,7 +7,7 @@ Example of using [handshakejs-script](https://github.com/handshakejs/handshakejs
 Create an account at <http://handshakejs-signup.herokuapp.com/>.
 
 ```bash
-git clone https://github.com/handshakejs/handshakejs-example-aprb.git
+git clone https://github.com/scottmotte/handshakejs-example-aprb.git
 cd handshakejs-example-aprb
 cp .example.env .env
 ```
@@ -26,7 +26,7 @@ Visit [http://localhost:5000](http://localhost:5000) in your browser.
 Create an account at <http://handshakejs-signup.herokuapp.com/>.
 
 ```bash
-git clone https://github.com/handshakejs/handshakejs-example-aprb.git
+git clone https://github.com/scottmotte/handshakejs-example-aprb.git
 cd handshakejs-example-ruby
 heroku create
 heroku config:set SALT=your_salt
